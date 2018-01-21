@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(void) 
 {
-char n;
-printf("enter the string:",n);
-scanf("%s",&n);
-if(n>=65&&n<=90||n>=97&&n<=122)
+char a;
+printf("enter the string:",a);
+scanf("%s",&a);
+if(a>=65&&a<=90||a>=97&&a<=122)
 {
 printf("no");
 }
