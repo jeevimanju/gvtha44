@@ -1,12 +1,16 @@
-#include<stdio.h>
-int main()
+int a=1,b=10,j,i,c;
+printf("\n the first interval is %d",a);
+printf("\n the second interval is %d",b);
+for(i=a;1<b;++i)
 {
-int a,n,i;
-scanf("%d%d",&a,&n);
-for(i=a;i<n;i++)
+ c=0;
+for(j=2;j<i/2;++j)
 {
-if(i%2==0)
-printf("%d is a even number\n",i);
+if((i%j)==0)
+c=1;
 }
-return 0;
+if(c==0)
+{
+printf("\n the prime number between two intervals are");
+}
 }
