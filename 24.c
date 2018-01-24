@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int c,a,i,j;
+int c,a,i,k;
 scanf("%d",&c);
 int b[c];
 printf("\n the input of an array is");
@@ -10,9 +10,9 @@ for(i=0;i<c;i++)
 scanf("%d",&b[i]);
 }
 printf("\n the output of an array is");
-for(j=0;j<c;j++)
+for(k=0;k<c;k++)
 {
-printf("%d",b[j]);
+printf("%d",b[k]);
 }
 return 0;
 }
