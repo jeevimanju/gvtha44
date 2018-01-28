@@ -1,16 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-int a,i;
-char ch[20];
-printf("how many time print");
-scanf("%d",&a);
-printf("enter char");
-scanf("%c",&ch);
-for(i=1;i<=a;i++)
-{
-printf("%c\n");;
+	int a,i;
+	char str[30];
+	scanf("%d",&a);
+	scanf("%s",&str);
+	for(i=1;i<=a;i++)
+	{
+		printf("%s",str);
+	}
+	return 0;
 }
-return 0;
-}
-
