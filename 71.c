@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(void)
+void main()
 {
 char a[100];
 int i,j,flag=0;
@@ -24,5 +24,4 @@ else
 {
     printf("The given string is palindrome");
 }
-return 0;
 }
