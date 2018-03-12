@@ -2,12 +2,12 @@
 #include<string.h>
 void main()
 {
-char a[100];
+char s[100];
 int i,j,flag=0;
 printf("Enter the string:");
-scanf("%s",&a);
+scanf("%s",&s);
 i=0;
-j=strlen(a)-1;
+j=strlen(s)-1;
 while(j>1)
 {
     if(a[i++]!=a[j--])
